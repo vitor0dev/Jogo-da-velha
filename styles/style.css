@@ -1,0 +1,102 @@
+*{
+    background-color:  rgb(10, 142, 175);
+
+}
+
+body{
+    text-align: center;
+}
+
+h1{
+    color: white;
+    font-family: Arial, Helvitica, sans-serif;
+    font-weight: bold;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid rgb(0, 99, 118);
+    display: inline-block;
+
+}
+
+.o{
+    position: relative; 
+}
+
+.o:after {
+    position: absolute;
+    content: url("/images/icon-o.svg");
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+}
+
+.x{
+    position: relative; 
+}
+
+.x:after {
+    position: absolute;
+    content: url("/images/icon-x.svg");
+    font-size: 50px;
+    line-height: 100px;
+    top: 0;
+    bottom: 0;
+    left: 0; 
+    right: 0;
+}
+
+h3{
+    color: white;
+    font-family: Arial, Helvitica, sans-serif;
+}
+
+button{
+    background-color: rgb(0, 99, 118);
+    color: white;
+    font-family: Arial, Helvitica, sans-serif;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#player-time{
+    color: white;
+    font-family: Arial, Helvitica, sans-serif;
+    margin-top: 10px;
+}
+
+.square {
+  user-select: none;
+  outline: none;
+}
+/* Impede que o usuário selecione o texto dentro do quadrado
+e que o quadrado tenha um contorno quando selecionado */
+
+#player-time {
+  color: white;
+  border: 2px solid #ffffff; /* borda do retângulo */
+  padding: 10px 15px;
+  display: inline-block;
+  border-radius: 8px; 
+  /* background-color: #f5f5f5; opcional: fundo */
+  font-weight: bold;
+}
+
+#reset {
+  margin-top: 10px;
+  background-color: #ff4d4d; /* vermelho */
+  border-radius: 5px;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+} 
