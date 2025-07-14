@@ -58,7 +58,6 @@ h3{
 }
 
 button{
-    background-color: rgb(0, 99, 118);
     color: white;
     font-family: Arial, Helvitica, sans-serif;
     border: none;
@@ -90,7 +89,7 @@ e que o quadrado tenha um contorno quando selecionado */
   font-weight: bold;
 }
 
-#reset {
+#clearBoard {
   margin-top: 10px;
   background-color: #ff4d4d; /* vermelho */
   border-radius: 5px;
@@ -100,3 +99,29 @@ e que o quadrado tenha um contorno quando selecionado */
   font-size: 16px;
   cursor: pointer;
 } 
+
+.test {
+    display: none; /* Esconde o elemento inicialmente */
+}
+
+#result {
+    color: white;
+    font-family: Arial, Helvitica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#result-text {
+    color: white;
+    font-family: Arial, Helvitica, sans-serif;
+    font-weight: bold;
+    margin-top: 20px;
+    font-size: 24px;
+}
+
+#play-again {
+    background-color: #4CAF50;
+    font-size: 16px;
+    border-radius: 5px;
+}
